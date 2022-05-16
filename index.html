@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock, Paper, Scissors</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.ico">
+  <script src="https://kit.fontawesome.com/8ad3010321.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <header>
+    <h1 class="header">ROCK, PAPER, SCISSORS</h1>
+  </header>
+  <main class="main">
+
+    <div class="main1">
+      <div id="playerSelection" class="weaponImage"></div>
+      <div class="scoreboard">
+        <h3 id="scoremessage">First to 5 wins!</h3>
+        <div id="score">0 - 0</div>
+      </div>
+      <div id="cpuSelection" class="weaponImage"></div>
+    </div>
+    <div class="main2">
+      <div class="buttons">
+        <div id="rock" class="rock weaponImage">
+          <div class="image"></div>
+          <div class="weaponName"></div>
+        </div>
+        <div id="paper" class="paper weaponImage">
+          <div class="image"></div>
+          <div class="weaponName"></div>
+        </div>
+        <div id="scissors" class="scissors weaponImage">
+          <div class="image"></div>
+          <div class="weaponName"></div>
+        </div>
+      </div>
+    </div>
+
+
+  <div id="modal">
+    <p id="modalTitle"></p>
+    <button class="btn btn-restart" id="restartBtn">Play again</button>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  </main>
+</body>
+
+</html>
