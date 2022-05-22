@@ -38,11 +38,7 @@ function handleClick(playerWeapon) {
 }
 
 function isGameOver() {
-    if (playerScore == 5 || cpuScore == 5) {
-        return true;
-    } else {
-        return false;
-    }
+    return false;
 }
 
 function restartGame() {
