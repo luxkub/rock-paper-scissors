@@ -38,7 +38,7 @@ function handleClick(playerWeapon) {
 }
 
 function isGameOver() {
-    if (playerScore == 10 || cpuScore == 10) {
+    if (playerScore == 20 || cpuScore == 20) {
         return true
     } else {
         return false
